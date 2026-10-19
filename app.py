@@ -3,7 +3,7 @@ from task_two import main
 
 def app():
     print('''
-        Welcome to HW#01 completed by Oleksandr Kydanov in Python for GoIT Neoversity.
+        Welcome!
 
         ####
         Please enter:

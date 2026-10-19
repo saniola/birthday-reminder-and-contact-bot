@@ -1,20 +1,33 @@
-### Description
-This is the first homework assignment completed for GoIT Neoversity using the Python programming language. The assignment consists of two tasks:
+# Birthday Reminder and Contact Bot
 
-Task 1: Create a function to display a list of colleagues who have upcoming birthdays within the week.
+A console menu app with two tools: a weekly birthday reminder and a simple contact bot.
 
-Task 2: Write a console assistant bot that recognizes commands entered from the keyboard and responds according to the entered command.
+## Features
 
-**How to use: **
-- Download the repository locally.
-- If you don't have installed Python locally, please install it from https://www.python.org/downloads/ or in another acceptable way for you. 
-- Run the main.py file.
-- Follow the instructions in the console.
+- Loads users with birthdays from `users.json` and lists whose birthdays fall within the next 7 days, grouped by weekday (weekend birthdays shift to the following Monday)
+- A command-line contact bot storing name/phone pairs in memory for the session
 
-### COMMANDS FOR TASK2: 
-1. Hello
-2. add [name] [phone number]
-3. change [name] [phone number]
-4. phone [name]
-5. all
-6. close/exit
+## Commands
+
+Menu options:
+- `1` — show upcoming birthdays for the next week
+- `2` — launch the contact bot
+- `0` — exit
+
+Contact bot commands:
+- `add [name] [phone number]`
+- `change [name] [phone number]`
+- `phone [name]`
+- `all`
+- `hello`
+- `close` / `exit`
+
+## Technology
+
+- Python 3 (standard library only)
+
+## Running
+
+```
+python main.py
+```
